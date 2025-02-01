@@ -6,6 +6,7 @@
 }
 .back-card{
     background-color: #FFFAFE;
+    max-width: fit-content;
 }
 .fonts{
     font-size: 48px;
