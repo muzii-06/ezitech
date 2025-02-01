@@ -14,28 +14,35 @@ html{
     /* background-position: center; */
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 100%; /* Full height on large screens */
+    height: 100%; /* Full height on large screens */
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
     text-align: center;
+   
     transition: all 0.3s ease-in-out;
 }
 
 /* Tablets - Reduce Image Size */
 @media (max-width: 1200px) {
     .back-img {
-        width: 100%;
-        height: 100%;
+        
         /* min-height: 100vh; Reduce height */
         /* background-size: contain; Keep the full image visible */
     }
+
     .topbar{
         display: none;
     }
     
 }
-
+@media (max-width: 480px) {
+    .back-img {
+       
+        width: 100%; /* Scale down further */
+        /* background-size: contain; */
+    }
+}
 /* Mobile Screens */
 
 

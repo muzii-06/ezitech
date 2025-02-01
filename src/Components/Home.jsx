@@ -8,9 +8,10 @@ import Steps from './Steps'
 const Home = () => {
   return (
     <>
+    <div className="overlay">
     <div className="back-img ">
 
-<div className="overlay">
+
   
  <Top/>
  <NavBar/>

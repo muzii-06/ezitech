@@ -111,6 +111,27 @@
         font-size: 10rem !important;
 
     }
-
+    @media (max-width: 560px) {
    
-}
+        .car{
+            max-width: 100%;
+            
+            
+        }
+        .back-card{
+            margin-left:0 !important ;
+            padding-left: 0 !important;
+        }
+        
+        .fonts {
+            font-size: 40px;
+        }
+        .num{
+            right:-20%;
+            top: -10px;
+            font-size: 10rem !important;
+            z-index: 1;
+    
+        }
+
+    }
