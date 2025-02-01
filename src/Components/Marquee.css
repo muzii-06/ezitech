@@ -1,0 +1,32 @@
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    background: white;
+    padding: 50px 0;
+  }
+  
+  .marquee {
+    display: flex;
+    gap: 60px;
+    animation: marquee 100s linear infinite ;
+    width: max-content;
+  }
+  
+  .marquee img {
+    height: 30px; /* Adjust size as needed */
+    width: auto;
+    display: inline-block;
+  }
+  
+  /* Keyframes for infinite scrolling effect */
+  @keyframes marquee {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  

@@ -1,0 +1,116 @@
+.num{
+    top: -80px;
+    right: 0;
+    font-size: 11rem !important;
+    color: #DFE8ED;
+}
+.back-card{
+    background-color: #FFFAFE;
+}
+.fonts{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.car{
+   max-width:  80%;
+}
+@media (max-width: 1635px) {
+    .num {
+        font-size: 9rem !important;
+        top: -50px;
+        right: -50px;
+        
+    }
+    
+
+    .fonts {
+        font-size: 38px;
+    }
+
+    .card {
+        max-width: 80%;
+        margin: auto;
+    }
+    .psize{
+        font-size: 14px !important;
+    }
+
+    /* .row {
+        gap: 3rem;
+    } */
+}
+@media (max-width: 1430px) {
+    .num {
+        font-size: 8rem !important;
+        top: -30px;
+        right: -50px;
+        
+    }
+    
+
+    .fonts {
+        font-size: 32px;
+    }
+
+    /* .card {
+        max-width: 80%;
+        margin: auto;
+    } */
+
+    /* .row {
+        gap: 3rem;
+    } */
+}
+ @media (max-width: 1200px) { 
+     .num {
+        font-size: 8rem !important;
+        top: -30px;
+        right: -50px;
+    }
+
+    .fonts {
+        font-size: 40px;
+        /* text-align: center; */
+    }
+
+    
+} 
+
+/* Smallest screens */
+@media (max-width: 920px) {
+    .num {
+        font-size: 8rem !important;
+    }
+
+    .fonts {
+        font-size: 30px;
+    }
+    .car{
+        max-width: 100%;
+        margin:0 20px;
+    }
+
+    /* .card {
+        max-width: 90%;
+        padding: 1.5rem;
+    } */
+}
+@media (max-width: 768px) {
+   
+    .car{
+        max-width: 40%;
+        
+    }
+    .fonts {
+        font-size: 40px;
+    }
+    .num{
+        right:-140%;
+        top: 20px;
+        font-size: 10rem !important;
+
+    }
+
+   
+}

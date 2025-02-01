@@ -1,0 +1,17 @@
+.nav{
+    background-color: #D4E1EE;
+    /* width: 80%; */
+    width: max-content;
+    padding: 13px 50px;
+    
+}
+.logo
+{
+    width: 150px;
+}
+.log{
+    background-color: #3275DB;
+    padding: 8px 15px;
+    font-size: 14px;
+    
+}
