@@ -9,8 +9,8 @@ html{
 .back-img
 {
     position: relative;
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    height: 100vw;
     background: url('https://ezitech.org/wp-content/uploads/revslider/rotating-words1/01-1.jpg') no-repeat center center/cover; 
     
 }
