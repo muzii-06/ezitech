@@ -10,6 +10,8 @@ import CoursesGrid from './CoursesGrid'
 import Alumni from './Alumni'
 import Question from './Question'
 import Follow from './Follow'
+import Start from './Start'
+import Footer from './Footer'
 
 const Home = () => {
   
@@ -37,6 +39,8 @@ const Home = () => {
 <Alumni/>
 <Question/>
 <Follow />
+<Start />
+<Footer/>
 
 
     </>

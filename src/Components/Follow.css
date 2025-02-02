@@ -1,0 +1,53 @@
+.social-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .social-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .social-card:last-child {
+    border-right: none;
+  }
+  
+  .social-icon {
+    font-size: 80px;
+    color: #43647a;
+    margin-bottom: 10px;
+  }
+  
+  .follow-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .follow-subtitle {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Hover Effect */
+  .social-card:hover .social-icon {
+    color: #007bff;
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .social-card {
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .social-card:last-child {
+      border-bottom: none;
+    }
+  }
+  
