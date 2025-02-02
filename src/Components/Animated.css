@@ -1,5 +1,7 @@
 .height{
     line-height: 1.5;
+    /* z-index: -333 !important;
+    position: relative; */
     /* text-indent: 20px; */
 }
 .indent{
@@ -10,6 +12,8 @@
     margin-top:100px ;
 }
 .search{
-    width: 500px;
+    width: 55%;
     padding: 18px ;
+    /* position: relative;
+    z-index: -333 !important; */
 }

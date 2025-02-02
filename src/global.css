@@ -1,45 +1,85 @@
 body{
-    overflow-x: hidden;
-    /* overflow-y:hidden ; */
+    overflow-x: hidden !important;
+    /* overflow-y:hidden !important; */
+    margin: 0 !important;
+    padding: 0 !important;
+    
 }
 html{
     overflow-x: hidden !important;
-    /* overflow-y: hidden; */
+    /* overflow-y:hidden !important; */
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    
+    /* overflow-y: hidden !important; */ 
 }
+#root {
+    position: relative;
+    z-index: 1;
+}
+
 .back-img {
     background: 
         linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
         url('https://ezitech.org/wp-content/uploads/revslider/rotating-words1/01-1.jpg');
-    /* background-size: cover;  Large screens - fills the space */
-    /* background-position: center; */
+    background-size:auto; 
+    background-position: 30% 30%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%; /* Full height on large screens */
+    min-height: 100%; /* Full height on large screens */
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
     text-align: center;
    
     transition: all 0.3s ease-in-out;
+    /* position: relative;  */
+    top: 0;
+    left: 0;
+    padding: 0 !important;
+    z-index: -111 !important;
+    
+    /* width: 100%;
+    height: 100vh;  */
 }
+
+
+/* .overlay{
+    
+    height: 100% !important;
+    width: 100%;
+    z-index: -1;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+/* } */
 
 /* Tablets - Reduce Image Size */
 @media (max-width: 1200px) {
-    .back-img {
-        
-        /* min-height: 100vh; Reduce height */
-        /* background-size: contain; Keep the full image visible */
-    }
+   
 
     .topbar{
-        display: none;
+        display: none !important;
     }
     
+    
+    
+}
+@media (max-width:980px){
+    .back-img{
+        position: relative;
+        z-index: -111 !important;
+    }
 }
 @media (max-width: 480px) {
     .back-img {
        
-        width: 100%; /* Scale down further */
+        /* width: 100%; Scale down further */
         /* background-size: contain; */
     }
 }

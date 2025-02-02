@@ -7,7 +7,7 @@ import './Top.css';
 const Top = () => {
   return (
     <>
-    <div className="p-4 topbar  mx-auto">
+    <div className="p-4 container topbar  mx-auto">
 
     <div className="d-flex justify-content-around ">
         <div className="d-flex gap-4">

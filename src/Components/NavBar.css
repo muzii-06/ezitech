@@ -1,17 +1,111 @@
 .nav{
     background-color: #D4E1EE;
-    /* width: 80%; */
     width: max-content;
-    padding: 13px 50px;
+   
+    padding: 15px 50px;
     
 }
 .logo
 {
-    width: 150px;
+    width: 10;
 }
 .log{
     background-color: #3275DB;
     padding: 8px 15px;
     font-size: 14px;
+    cursor: pointer !important  ;
     
+}
+.menu{
+    display: none;
+}
+@media (max-width:1200px)
+{
+    .nav{
+        
+            visibility: hidden; 
+            height: 0;
+            padding: 0;
+            margin: 0;
+        
+    }
+    
+
+    
+}
+@media (max-width:980px)
+{
+    .nav{
+        /* important */
+         padding: 40px;
+        border-radius: 0 !important;
+        width: 100%;
+        position: relative;
+
+        visibility: visible; 
+        z-index: -2;
+        
+         
+
+        
+    }
+    .contents{
+        /* display: none !important; */
+        flex-direction: column;
+        position: absolute;
+       /* margin: 0 !important; */
+        color: white !important;
+         height: 100vh !important   ;
+        width: 50%;
+        /* padding: 0 20px; */
+         background-color: #131313; 
+         right: 0;
+         top:-4%;
+         /* justify-content: flex-start !important; */
+         align-items: flex-start !important;
+           
+        padding: 0 30px;
+        transition: all 0.4s;
+        transform: translateX(100%);
+        
+         z-index: 5555 !important; 
+         
+         transition: all 0.5s;
+         /* z-index: ; */
+        
+    }
+    .menu{
+        z-index: 11 !important;
+    }
+    .setsize{
+        font-size: 14px !important; 
+        font-weight: bold;
+        text-align: left;
+    }
+    .log{
+        position:absolute;
+        top: 50%;
+        left:13%;
+        transform: translate(-50%,-50%);
+        font-size: 10px;
+
+        /* to new */
+        /* display: none; */
+    }
+    .logo{
+        width: 25%;
+        position:absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        /* display: none; */
+        
+    }
+    .menu{
+        display: block;
+        position:absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
 }
