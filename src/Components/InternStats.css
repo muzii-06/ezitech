@@ -40,7 +40,15 @@ Section Styling
   }
   
   /* Responsive Styling */
-  @media (max-width: 768px) {
+  @media (max-width: 568px) {
+    .marg{
+        margin-top: 550px !important;
+      }
+    }
+    @media (max-width: 460px) {
+        .marg{
+            margin-top: 650px !important;
+          }
     .heading {
       font-size: 2rem;
       text-align: center;
@@ -51,5 +59,6 @@ Section Styling
     .blue-line {
       margin: 0 auto;
     }
+    
   }
   
