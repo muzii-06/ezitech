@@ -1,0 +1,50 @@
+Section Styling
+.text-section1 {
+    text-align: left;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #000;
+  }
+  .marg{
+    margin-top: 350px !important;
+  }
+  .blue-line {
+    width: 60px;
+    height: 4px;
+    background-color: #3275DB;
+    margin-top: 5px;
+  }
+  
+  /* Stats Box */
+  .stats-box {
+    background: #fff;
+    border-radius: 8px;
+  }
+  
+  .stats-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .stats-label {
+    font-size: 0.9rem;
+    color: gray;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .text-section1 {
+      text-align: center;
+    }
+    .blue-line {
+      margin: 0 auto;
+    }
+  }
+  

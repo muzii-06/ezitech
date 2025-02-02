@@ -5,6 +5,7 @@ import Animated from './Animated'
 import Marquee from './Marquee'
 import Steps from './Steps'
 import EventPromo from './EventPromo'
+import InternStats from './InternStats'
 
 const Home = () => {
   
@@ -26,6 +27,7 @@ const Home = () => {
 
 <Steps/>
 <EventPromo/>
+<InternStats/>
     </>
   )
 }
