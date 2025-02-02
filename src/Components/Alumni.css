@@ -1,0 +1,121 @@
+.alumni-section {
+    
+    padding: 40px 20px;
+    background: #f9f9ff;
+  }
+  
+  .alumni-section h2 {
+    text-align: center;  
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .alumni-section p {
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+    font-size: 21px;
+    text-align: center;
+  }
+  
+  .testimonial-slider {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+  }
+  
+  .testimonial-track {
+    
+    display: flex;
+    width: calc(450px * 3);
+    height: 300px   ; 
+    animation: scroll 20s linear infinite;
+    gap: 30px;
+  }
+  
+  .testimonial-card {
+    flex: 0 0 450px;
+   
+    max-width: 800px !important ;
+    background: white;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .feed {
+    font-size: 13px;
+    color: #444;
+    margin-top: 20px !important;
+    font-weight: 500;
+  }
+  
+  .testimonial-icon {
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  /* Auto-scroll Animation */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Stop animation on hover */
+  .testimonial-slider:hover .testimonial-track {
+    animation-play-state: paused;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .testimonial-track {
+      animation: scroll 20s linear infinite; /* Slower on small screens */
+    }
+    .testimonial-card {
+      flex: 0 0 450px;
+    }
+    .alumni-section h2 {
+         
+        font-size: 2rem;
+    }
+      
+      .alumni-section p {
+        text-align: center;
+      }
+      
+  }
+  
+  @media (max-width: 480px) {
+    .testimonial-card {
+      flex: 0 0 320px;
+    }
+    .feed{
+        font-size: 18px !important;
+    }
+  }
+  

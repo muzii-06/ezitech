@@ -6,6 +6,10 @@ import Marquee from './Marquee'
 import Steps from './Steps'
 import EventPromo from './EventPromo'
 import InternStats from './InternStats'
+import CoursesGrid from './CoursesGrid'
+import Alumni from './Alumni'
+import Question from './Question'
+import Follow from './Follow'
 
 const Home = () => {
   
@@ -26,8 +30,15 @@ const Home = () => {
 <Marquee />
 
 <Steps/>
+<Question/>
 <EventPromo/>
 <InternStats/>
+<CoursesGrid/>
+<Alumni/>
+<Question/>
+<Follow />
+
+
     </>
   )
 }

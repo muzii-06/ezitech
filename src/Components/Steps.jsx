@@ -1,6 +1,7 @@
 import React from 'react'
 import Cards from './Cards'
 import './Cards.css';
+import Question from './Question';
 const Steps = () => {
   return (
     <>
@@ -27,7 +28,7 @@ const Steps = () => {
     </div>
 
     </div>
-    <p className="text-secondary mt-5 text-center p-5 question">Still have a question? <a href="#"> Browse</a> documentation or <a href="#"> submit a ticket. </a></p>
+    {/* <Question/> */}
     </div>
     
     </>
