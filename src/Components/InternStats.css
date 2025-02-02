@@ -8,7 +8,7 @@ Section Styling
     color: #000;
   }
   .marg{
-    margin-top: 350px !important;
+    margin-top: 100px !important;
   }
   .blue-line {
     width: 60px;
@@ -32,6 +32,11 @@ Section Styling
   .stats-label {
     font-size: 0.9rem;
     color: gray;
+  }
+  @media (max-width:1300px) {
+    .marg{
+        margin-top: 500px !important;
+      }
   }
   
   /* Responsive Styling */
