@@ -27,14 +27,15 @@
   .info-btn {
     background: #dcdffe;
     border: none;
-    padding: 5px 10px;
+    padding: 6px 15px;
     border-radius: 15px;
     font-size: 14px;
     cursor: pointer;
+    color: #323BDD;
   }
   
-  h2 {
-    font-size: 24px;
+  .emp {
+    font-size: 40px;
     font-weight: bold;
   }
   
@@ -43,11 +44,13 @@
   }
   
   .subtitle {
-    font-weight: bold;
+    font-weight: bolder;
+    color: #555;
+    margin-top: 20px;
   }
   
   .description {
-    font-size: 16px;
+    font-size: 19px;
     color: #555;
   }
   
@@ -55,9 +58,10 @@
     background: #3b82f6;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 20px 40px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 30px;
   }
   
   /* @media (max-width: 768px) {
@@ -74,20 +78,114 @@
     }
   }  */
 
-  /* .im1{
+  .im1{
     
-    width: 55%;
+    width: 22%;
+   
+    left: 10%;
+    top:0;
     
   }
   .im2{
-    top:100%;
-    right:10%;
-    width: 55%;
+    /* top:100%; */
+    left: 25%;
+    width: 20%;
+    top: 38%;
+    
 
   }
   .im3{
-    right:5%;
-    width: 35%;
+   left: 33%;
+    width: 15%;
     top:10%;
     z-index: -11 ;
-  } */
+    
+  } 
+  .event{
+    height: 100vh !important;
+    background-image: url("https://ezitech.org/wp-content/uploads/2021/07/dots1.svg");
+    background-repeat: no-repeat;
+    background-position: 46% 100%;
+    
+  }
+  @media (max-width:1500px)  {
+    .event{
+        height: 60vh !important;
+    }
+    
+  }
+  @media (max-width:1300px)  {
+    .im1{
+    
+        
+       
+        left: 0%;
+        top:0;
+        
+      }
+      .im2{
+        /* top:100%; */
+        left: 15%;
+        width: 20%;
+        top: 38%;
+        
+    
+      }
+      .im3{
+       left: 25%;
+       
+        top:10%;
+        
+        
+      } 
+    
+  }
+  @media (max-width:1200px) {
+   
+   .text-section{
+
+    /* align-items: flex-start !important; */
+    max-width: 900px !important;
+    margin: auto;
+    text-align: center;
+    margin-top: 600px;
+   }
+   .im1{
+    
+        width: 25%;
+       
+    left: 10%;
+    top:0;
+    
+  }
+  .im2{
+    /* top:100%; */
+    left: 40%;
+    width: 25%;
+    top: 40%;
+    
+
+  }
+  .im3{
+   left: 70%;
+  width: 18%;
+    top:10%;
+    
+    
+  }   
+  }
+  @media (max-width:980px)
+  {
+    .image-section{
+        display: none !important;
+    }
+    .text-section{
+        margin-top: 0 !important;
+        max-width: 700px !important;
+    }
+    .event{
+         justify-content: flex-start !important;
+         height: 0 !important;
+         display: block;
+    }
+  }

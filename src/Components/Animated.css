@@ -17,3 +17,9 @@
     /* position: relative;
     z-index: -333 !important; */
 }
+@media (max-width:980px) {
+    .search,.hide{
+       visibility: hidden;
+    }
+    
+}

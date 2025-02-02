@@ -27,7 +27,7 @@ const Steps = () => {
     </div>
 
     </div>
-    <p className="text-secondary mt-5 text-center p-5">Still have a question? <a href="#"> Browse</a> documentation or <a href="#"> submit a ticket. </a></p>
+    <p className="text-secondary mt-5 text-center p-5 question">Still have a question? <a href="#"> Browse</a> documentation or <a href="#"> submit a ticket. </a></p>
     </div>
     
     </>

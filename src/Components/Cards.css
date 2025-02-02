@@ -16,6 +16,9 @@
 .car{
    max-width:  80%;
 }
+.question{
+    font-size: 13px;
+}
 
 @media (max-width: 1635px) {
     .num {
